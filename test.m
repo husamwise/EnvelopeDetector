@@ -14,7 +14,7 @@ ao.setup();
 
 %  solve by backward euler
 tic
-xfe1 = solve_by_be( @ao.f , ao.t , 0 );
+xfe1 = solve_by_fe( @ao.f , ao.t , 0 );
 toc
 
 %  solve by backward euler
